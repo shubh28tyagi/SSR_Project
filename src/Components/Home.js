@@ -11,7 +11,7 @@ export default class Home extends React.Component{
     }
 
     componentDidMount(){
-       this.fetchData()
+     //  this.fetchData()
     }
 
     fetchData(){
@@ -25,7 +25,7 @@ export default class Home extends React.Component{
 
     captureClick(){
         this.setState(prevState => {return {count: prevState.count+1}})
-        this.fetchData()
+   //     this.fetchData()
     }
 
     render(){
